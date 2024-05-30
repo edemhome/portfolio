@@ -6,11 +6,11 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: "Welcome to Edem's Portfolio Page",
-    description: 'Modern and Minimalist Mastery Portfolio',
+    description: 'Modern and Minimalist Mastery Portfolio'
 };
 
 export default function RootLayout({
-    children,
+    children
 }: Readonly<{
     children: React.ReactNode;
 }>) {
